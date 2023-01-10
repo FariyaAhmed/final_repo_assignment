@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+
+.text-primary {
+    color: #FFFFFF;
+}
+
+
+
+/* banner styles */
+.banner-sub-section{
+    width: 50%;
+    margin-left: auto;
+  }
+  
+  .banner-sub-section .contact-button{
+      text-align: right;
+      padding-bottom: 166px;
+      padding-right: 243px;
+  }
+  .banner-sub-section h3{
+      color: #ffff;
+      padding-top: 216px;
+      padding-right: 230px;
+      padding-bottom: 24px;
+      font-family: 'Work Sans';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 65px;
+      line-height: 76px;
+      text-align: right;
+  }
+  .banner-sub-section p{
+      color: #ffff;
+      font-family: 'Work Sans';
+      font-weight: 400;
+      font-size: 16px;
+      text-align: right;
+      padding-right: 230px;
+      padding-bottom: 24px;
+      padding-left: 300px;
+  }
+  .banner-sub-section button, .call-button{
+      color: #005FAC;
+      /* float: right; */
+      padding: 10px;
+      border-radius: 3px;
+      border: none;
+      cursor: pointer;
+      font-weight: 600;
+      padding: 10px 25px;
+      
+  }
+  .banner{
+      background-image: url('../images/banner/banner3.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
+
+/* main section */
+.the-failure {
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+    margin-top: 5px;
+
+
+}
+
+.photo {
+    width: 569px;
+    height: 723.3px;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+.title h3 {
+
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 700;
+    text-align: left;
+    justify-content: space-around;
+    font-size: 40px;
+    margin-top: 400px;
+    max-width: 350px;
+    padding-bottom: 30px;
+}
+
+.description {
+    color: #444343;
+    font-weight: 400;
+    font-size: 16px;
+    height: 104px;
+    width: 416px;
+    left: 862px;
+    top: 1296px;
+    border-radius: 0;
+    line-height: 26px;
+    padding-bottom: 10px;
+
+}
+
+.list-style li {
+    list-style: none;
+
+}
+
+.list-style li > i{
+    color: rgb(153, 214, 235);
+}
+
+
+
+/* my plan styles */
+.section-title {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    letter-spacing: 0em;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.my-plans {
+    margin: top 30px;
+}
+
+.plans-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+.plans {
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+    padding: 30px;
+    margin-bottom: 50px;
+    
+
+}
+
+.plans-title {
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.plans-description {
+    font-weight: 400;
+    font-size: 16px;
+    color: #757575;
+}
+
+/* Gradient section */
+.gradient {
+    display: flex;
+    align-items: center;
+    height: 300px;
+    width: 1140px;
+    left: 16px;
+    top: 1734px;
+    border-radius: 8px;
+    padding: 50px 200px 200px;
+   
+
+}
+
+.gradient.gradient-title {
+    color: #ffff;
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    display: block;
+    text-align: left;
+    height: 182px;
+    width: 459px;
+    left: 294px;
+    top: 2275.2998046875px;
+    border-radius: 5px;
+
+}
+
+/* gradient sectiin */
+.gradient{
+    background-image: linear-gradient(80deg, #005FAC 0%, rgba(0, 95, 172, 0) 50%), url('../images/watch.png');
+    background-size: cover; 
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+    width: 900px;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+
+.gradient {
+    padding: 40px;
+}
+
+.gradient .gradient-describe h3{
+    color: #fff;
+    width: 400px;
+    font-size: 35px;
+    margin-bottom: 24px;
+    
+}
+
+/* footer section start */
+
+.footers{
+    display: flex;
+    gap: 100px;
+    color: #fff;
+    background: #000000;
+    padding: 130px 200px;
+}
+.footers .section-title{
+    text-align: left;
+    margin-bottom: 30px;
+    font-family: 'Work Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+}
+.footers input[type="text"],input[type="email"],textarea{
+    margin-bottom: 24px;
+    width: 100%;
+    padding: 18px 30px;
+    border-radius: 5px;
+    background-color: #000000;
+    color: F3F3F3;
+    font-weight: 700;
+    font-size: 18px;
+}
+.btn-primary{
+    padding: 7px 10px;
+    background-color: #005FAC;
+    color: #fff;
+    border-radius: 5px;
+}
+.footers a{
+    text-decoration: none;
+    
+}
+.icone{
+    margin: 0 6px;
+}
+.section-details{
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+}
+.footer-contact p{
+    color: #ffff;
+    font-family: 'Work Sans';
+    font-weight: 400;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
